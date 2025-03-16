@@ -1,6 +1,6 @@
 # Basic Redis Chat App Demo Python (Flask)
 
-Showcases how to impliment chat app in Python (Flask), Socket.IO and Redis. This example uses **pub/sub** feature combined with web-sockets for implementing the message communication between client and server.
+Showcases how to implement chat app in Python (Flask), Socket.IO and Redis. This example uses **pub/sub** feature combined with web-sockets for implementing the message communication between client and server.
 
 <a href="https://github.com/redis-developer/basic-redis-chat-app-demo-python/raw/master/docs/screenshot000.png"><img src="https://github.com/redis-developer/basic-redis-chat-app-demo-python/raw/master/docs/screenshot000.png" width="49%"></a>
 <a href="https://github.com/redis-developer/basic-redis-chat-app-demo-python/raw/master/docs/screenshot001.png"><img src="https://github.com/redis-developer/basic-redis-chat-app-demo-python/raw/master/docs/screenshot001.png" width="49%"></a>
@@ -276,21 +276,3 @@ Run with venv:
 ```sh
 python app.py
 ```
-
-## Try it out
-
-#### Deploy to Heroku
-
-<p>
-    <a href="https://heroku.com/deploy" target="_blank">
-        <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heorku" />
-    </a>
-</p>
-
-#### Deploy to Google Cloud
-
-<p>
-    <a href="https://deploy.cloud.run" target="_blank">
-        <img src="https://deploy.cloud.run/button.svg" alt="Run on Google Cloud" width="150px"/>
-    </a>
-</p>

@@ -1,13 +1,13 @@
 import json
 
 from flask import session
-from flask_socketio import emit, join_room
+from flask_socketio import emit, join_room # type: ignore
 
 from chat import utils
 
 
 def publish(name, message, broadcast=False, room=None):
-    """If the messages' origin is the same sever, use socket.io for sending, otherwise: pub/sub"""
+    """If the messages' origin is the same server, use socket.io for sending, otherwise: pub/sub"""
     if room:
         emit(name, message, room=room, broadcast=True)
     else:
